@@ -11,8 +11,5 @@
     "dependencies": {
 "forever": "0.14.1"
 },
-    "scripts": {
-        "start": "forever start",
-        "stop": "forever stopall"
-    }
+    
 } 
