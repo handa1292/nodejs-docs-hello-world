@@ -8,8 +8,11 @@
     "engines": {
         "node": ">=6.9.1"
     },
+    "dependencies": {
+"forever": "0.14.1"
+},
     "scripts": {
         "start": "node index.js",
-        "stop": "node index.js stop"
+        "stop": "forever stopall"
     }
 }
